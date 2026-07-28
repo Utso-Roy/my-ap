@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 import { Text, View } from "react-native";
 const Index = () => {
@@ -12,6 +13,9 @@ const Index = () => {
 
         Hamid Islam
       </Text>
+<Button>
+      <Text>Click Me</Text>
+    </Button>
     </View>
   )
 };
