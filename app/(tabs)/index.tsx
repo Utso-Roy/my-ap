@@ -1,23 +1,11 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
-import { Text, View } from "react-native";
+import Splash from "@/components/splashScreen/Splash";
+
 const Index = () => {
   return (
-    <View className="flex-1 justify-center items-center bg-red-500">
-      <Text className="text-white text-3xl">Tailwind Working</Text>
-      <Text className="text-white ">
-        utso Roy 
-      </Text>
-
-      <Text className="text-white font-bold text-4xl ">
-
-        Hamid Islam
-      </Text>
-<Button>
-      <Text>Click Me</Text>
-    </Button>
-    </View>
-  )
+   <Splash></Splash>
+   
+  );
 };
 
-export default Index; 
+export default Index;
